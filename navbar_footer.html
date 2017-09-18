@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<!-- -- -->
+	<link rel="stylesheet" type="text/css" href="css/style_nav_footer.css">
+	<title>Header & Footer</title>
+</head>
+<body>
+<!-- Type 1 -->
+<section id="type-1">
+	<div class="container">	
+		<div class="row">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			  <a class="navbar-brand" href="#">Brand</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar-collapse-1">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Portofolio</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Blog</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Pages</a>
+			      </li>
+			      <li>
+              <!-- <button class="btn btn-outline-warning my-2 my-sm-0" data-target="#login-modal" data-toggle="collapse">Sign in</button> -->
+              <a class="btn btn-outline-warning my-2 my-sm-0" href="#" data-toggle="modal" data-target="#login-modal">Sign In</a>
+            </li>
+			    </ul>
+			</nav>
+		</div>	
+	</div>
+	<div class="jumbotron">
+	  <h1 class="display-3">Hello, world!</h1>
+	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+	  <hr class="my-4">
+	  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	  <p class="lead">
+	    <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+	  </p>
+	</div>
+	<footer class="" align="center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Your Website 2017</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  	  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Login to Your Account</h5>
+
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <form>
+						  <div class="form-row">
+						    <div class="form-group col-md-12">
+						      <label for="inputEmail4" class="col-form-label">Email</label>
+						      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						    </div>
+						    <div class="form-group col-md-12">
+						      <label for="inputPassword4" class="col-form-label">Password</label>
+						      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+						    </div>
+						  	<div class="col-auto">
+						      <div class="form-check mb-2 mb-sm-0">
+						        <label class="form-check-label">
+						          <input class="form-check-input" type="checkbox"> Remember me
+						        </label>
+						      </div>
+						    </div>
+						  </div>
+						<div class="pull-right">
+			        <button type="submit" class="btn btn-warning">Log in</button>
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+						</div>  	
+						</form>
+		      </div>
+		      <div class="modal-footer">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+</section>
+<!-- End Type 1 -->
+
+<!-- Type 2 -->
+<section id="type-2">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary" align="center">
+		<div class="logo">
+	    <a class="navbar-brand" href="#"><img src="images/logo-alt-w.png"></a>
+	  </div>	
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav mx-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Features</a>
+	      </li>
+	      <div class="logo-menu">
+	      	<a class="navbar-brand" href="#"><img src="images/logo-alt-w.png"></a>
+	      </div>	
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Pricing</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Blog</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <div class="card">
+		      <div class="card-body">
+		        <h4 class="card-title">Special title treatment</h4>
+		        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		        <a href="#" class="btn btn-primary">Go somewhere</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+
+	<!-- Footer -->
+	<footer class="mainfooter" role="contentinfo">
+	  <div class="footer-middle">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-3 col-sm-6">
+		        <!--Column1-->
+		        <div class="footer-pad">
+		          <h4>Address</h4>
+		          <address>
+								<ul class="list-unstyled">
+									<li>
+		              	Cimahi<br>
+										Jl.Citereup 135 A<br>
+										Jawa Barat<br>
+										Indonesia<br>
+									</li>
+									<li>
+										Phone: +62...
+									</li>
+								</ul>
+							</address>
+		        </div>
+		      </div>
+		      <div class="col-md-3 col-sm-6">
+		        <!--Column1-->
+		        <div class="footer-pad">
+		          <h4>Popular Services</h4>
+		          <ul class="list-unstyled">
+		            <li><a href="#"></a></li>
+		            <li><a href="#">Payment Center</a></li>
+		            <li><a href="#">Contact Directory</a></li>
+		            <li><a href="#">Forms</a></li>
+		            <li><a href="#">News and Updates</a></li>
+		            <li><a href="#">FAQs</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		      <div class="col-md-3 col-sm-6">
+		        <!--Column1-->
+		        <div class="footer-pad">
+		          <h4>Website Information</h4>
+		          <ul class="list-unstyled">
+		            <li><a href="#">Website Tutorial</a></li>
+		            <li><a href="#">Accessibility</a></li>
+		            <li><a href="#">Disclaimer</a></li>
+		            <li><a href="#">Privacy Policy</a></li>
+		            <li><a href="#">FAQs</a></li>
+		            <li><a href="#">Webmaster</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		      <div class="col-md-3 col-sm-6">
+		        <!--Column1-->
+		        <div class="footer-pad">
+		          <h4>Popular Departments</h4>
+		          <ul class="list-unstyled">
+		            <li><a href="#">Parks and Recreation</a></li>
+		            <li><a href="#">Public Works</a></li>
+		            <li><a href="#">Police Department</a></li>
+		            <li><a href="#">Fire</a></li>
+		            <li><a href="#">Mayor and City Council</a></li>
+		            <li>
+		              <a href="#"></a>
+		            </li>
+		          </ul>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  </div>
+		  <div class="footer-bottom">
+		    <div class="container">
+		      <div class="row justify-content-center">
+		        <div class="col-xs-12">
+		          <!--Footer Bottom-->
+		          <p>&copy; Copyright 2017 - City of Indonesia.  All rights reserved.</p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	</footer>
+	<!-- End footer -->
+</section>
+<!-- End Type 2 -->
+
+<!-- Type 3 -->
+<section id="type-3">
+<div class="container">
+	
+</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Your Brand</a>
+	  	<div class="ml-auto">
+	      <div class="row"> 
+		      <div class="d-flex justify-sm-content-end">
+	      		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </div>
+					<div class="d-flex justify-sm-content-end">
+						<a class="nav-link" id="sidebarCollapse"><i class="fa fa-bars"></i></a>
+					</div>	
+	      </div>
+			</div>
+		<div id="sidenav" class="sidenav">
+		  <a href="#">About</a>
+		  <a href="#">Services</a>
+		  <a href="#">Clients</a>
+		  <a href="#">Contact</a>
+		</div>
+	</nav>
+	<section align="center">
+		Content
+	</section>
+
+	<!-- Footer -->
+	<footer>
+     <div class="container">
+     		<div class="row justify-content-center">
+			    <div class="col-lg-12">
+				    <div class="footer-social">
+				    		<h3>Contact Us.</h3>
+				        <a href="#" class="social-icons"><i class="fa fa-facebook icon-footer"></i></a>
+				        <a href="#" class="social-icons"><i class="fa fa-google-plus icon-footer"></i></a>
+				        <a href="#" class="social-icons"><i class="fa fa-twitter icon-footer"></i></a>
+				    </div>
+     			</div>
+		      <!--Footer Bottom-->
+     			<div class="row justify-content-center">
+		        <div class="col-xs-12">
+		          <p>&copy; Copyright 2017 - City of Indonesia.  All rights reserved.</p>
+		        </div>
+		      </div>
+     		</div>	
+     </div>
+  </footer>
+</section>
+
+<!-- JavaScript Type 3 -->
+<script type="text/javascript">
+	$('#sidebarCollapse').click(function(e){
+    e.stopPropagation();
+     $('#sidenav').toggleClass('show-menu');
+     
+	});
+	$('#sidenav').click(function(e){
+	    e.stopPropagation();
+	});
+	$('body,html').click(function(e){
+	  $('#sidenav').removeClass('show-menu');
+	});
+</script>
+<!-- End Type 3 -->
+
+<!-- Type 4 -->
+<section id="type-4">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Your Brand</a>
+	  	<div class="ml-auto">
+	      <div class="row"> 
+					<div class="d-flex justify-sm-content-end">
+						<a class="nav-link" onclick="openNavFull()"><i class="fa fa-bars"></i></a>
+					</div>	
+	      </div>
+			</div>
+			<div id="mySideNavFull" class="sidenav">
+				<div class="menu-side">
+					  <a href="javascript:void(0)" class="closebtn" onclick="closeNavFull()">&times;</a>
+					  <br>
+					<div class="menu">
+					  <a href="#">Home</a>
+					  <a href="#">About</a>
+					  <a href="#">Services</a>
+					  <a href="#">Clients</a>
+					  <a href="#">Contact</a>
+					</div>  
+				</div>	  
+				<video autoplay loop class="video-background" muted plays-inline>
+				  <source src="video/video_cover2.webm" type="video/webm">
+				</video>
+			</div>
+	</nav>
+	<section align="center">
+		Content
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="text-center center-block">
+		      <a href=""><i class="fa fa-facebook-square fa-3x social facebook"></i></a>
+		      <a href=""><i class="fa fa-twitter-square fa-3x social twitter"></i></a>
+		      <a href=""><i class="fa fa-google-plus-square fa-3x social google-plus"></i></a>
+		      <a href=""><i class="fa fa-envelope-square fa-3x social mail"></i></a>
+				</div>
+			</div>	
+			<div class="row justify-content-center">
+	      <div class="col-xs-12">
+	        <p>&copy; Copyright 2017 - City of Indonesia.  All rights reserved.</p>
+	      </div>
+	    </div>
+	  </div>  
+	</footer>
+</section>
+
+<!-- JavaScript Type 4 -->
+	<script>
+	function openNavFull() {
+	    document.getElementById("mySideNavFull").style.width = "100%";
+	}
+
+	function closeNavFull() {
+	    document.getElementById("mySideNavFull").style.width = "0";
+	}
+	</script>
+<!-- End Type 4 -->
+<!-- JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- End -->
+</body>
+</html>
