@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+#video-text-1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f2f5f7;
+  height: auto;
+}
+
+.embed-responsive-item .ytp-large-play-button{
+  position: absolute;
+  left: 56%;
+  top: 62%;
+  width: 38px !important;
+  height: 25px;
+  margin-left: -34px;
+  margin-top: -24px;
+}
+#video-text-1 .embed-responsive{
+  margin-bottom: 20px;
+}
+
+#video-text-1 .list-benefit{
+  font-size: 20px;
+  line-height: 3rem;
+}
+
+#video-text-1 .list-benefit span{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+#video-text-1 .list-benefit .fa{
+  color: #f9bf3b;
+}
+
+#video-text-1 h3{
+  font-weight: bold;
+}
+
+#video-text-1 p{
+  color: #808080
+}
+/*End*/
+
+
+#video-text-2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #6C7A89;
+  height: auto;
+}
+#video-text-2 .embed-responsive{
+  margin-bottom: 20px;
+}
+
+#video-text-2 .list-benefit{
+  line-height: 3rem;
+}
+
+#video-text-2 .list-benefit span{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+#video-text-2 .list-benefit .fa{
+  color: #fff;
+}
+
+#video-text-2 h4{
+  font-weight: bold;
+  color:#fff;
+}
+
+#video-text-2 p{
+  color: #fff;
+}
+
+
+
+/*Responsive Style*/
+
+@media(max-width: 1024px){
+  #video-text-1 .list-benefit span{
+    font-size: 15px;
+  }
+
+  #video-text-1 .list-benefit{
+    line-height: 2rem;
+  }
+  #video-text-2 .list-benefit span{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 768px){
+  #video-text-1 h3{
+    font-size: 25px;
+  }
+
+  #video-text-1 .list-benefit{
+    line-height: 2rem;
+  }
+  #video-text-2 .list-benefit span{
+    font-size: 15px;
+  }
+}
+
+
+@media(max-width: 320px){
+  #video-text-1 .list-benefit{
+    line-height: 2rem;
+  }
+  #video-text-1 .list-benefit span{
+    font-size: 14px;
+  }
+  #video-text-1 h3{
+    font-size: 20px;
+  }
+
+
+
+  #video-text-2 .list-benefit{
+    line-height: 1.5rem;
+  }
+  #video-text-2 .list-benefit .fa{
+    font-size: 10px;
+  }
+  #video-text-2 h4{
+    font-size: 20px;
+  }
+  #video-text-2 p{
+    font-size: 13px;
+  }
+  #video-text-2 .list-benefit span{
+    font-size: 11px;
+  }
+}

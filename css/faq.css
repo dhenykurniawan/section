@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#type-1 {
+  background-color: #6C7A89;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+#type-1 .title{
+  color: #fff; 
+  font-family: 'Raleway', sans-serif;
+}
+
+#type-1 .sub-title{
+  color: #fff; 
+  /*margin-right: 80px;*/
+  font-family: 'Raleway', sans-serif;
+}
+
+#type-1 .badge{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+#type-1 button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Muli', sans-serif;
+}
+
+#type-1 button.accordion.active, button.accordion:hover {
+    background-color: #95A5A6;
+}
+
+#type-1 button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+#type-1 button.accordion.active:after {
+    content: "\2212";
+}
+
+#type-1 div.panel {
+    padding: 0 18px;
+    background-color: #ddd;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Muli', sans-serif;
+}

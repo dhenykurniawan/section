@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+#type-1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  letter-spacing: 0.1em;
+  font-family: 'Poiret One', cursive;
+  color: #000;
+}
+
+#type-1 h3 {
+  font-weight: bold;
+  color: #000;
+}
+
+#type-1 .text {
+  font-weight: bold;
+  color: #000;
+  /*margin-top: 10px;*/
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+
+#type-1 .label, .form-control {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	color: #000;
+}
+#type-1 .col-md-6{
+  padding: 20px;
+
+}
+#type-1 input[type=email], input[type=text], textarea[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  letter-spacing: 0.1em;
+}
+
+#type-1 input[type=email]:focus,
+input[type=text]:focus,
+textarea[type=text]:focus {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #5B3256;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  letter-spacing: 0.1em;
+}
+#type-1 button[type=submit]{
+	cursor: pointer;	
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	background-color: #763568;
+	border-color: #763568;
+	letter-spacing: 0.1em;
+}
+
+#type-1 button[type=submit]:focus{
+  /*border-color: #000;*/
+}
+
+
+#type-1 button[type=submit]:hover{
+	background-color: #5B3256;
+	border-color: #5B3256;
+}
+
+/*End*/
+
+#type-2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+  background-color: #e4e6e6;
+}
+
+#type-2 .form-horizontal{
+		font-family: 'Lobster Two', cursive;
+		letter-spacing: 0.1em; 
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);                                                                                   
+}
+#type-2 .form-horizontal .header{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    background: #3f9cb5;
+    padding: 30px 25px;
+    border-radius: 3px 3px 0 0;
+}
+#type-2 .form-horizontal .heading{
+    font-size: 16px;
+    color: #3f9cb5;
+    margin: 10px 0 20px 0;
+    text-transform: capitalize;
+}
+#type-2 .form-horizontal .form-content{
+    padding: 25px;
+    background: #fff;
+}
+#type-2 .form-horizontal .form-control{
+    padding: 12px 16px 12px 39px;
+    letter-spacing: 0.1em;
+    height: 50px;
+    font-size: 15px;
+    color: #2b2a2a;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+#type-2 .form-horizontal .form-control:focus{
+    border-color: #3f9cb5;
+    box-shadow: none;
+}
+#type-2 .form-horizontal .control-label{
+    font-size: 17px;
+    color: #ccc;
+    position: absolute;
+    top: 11px;
+    left: 27px;
+    text-align: center;
+}
+#type-2 .form-horizontal textarea.form-control{
+    resize: vertical;
+    height: 130px;
+}
+#type-2 .form-horizontal .btn{
+    font-size: 18px;
+    color: #4e4e4e;
+    float: right;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 25px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+#type-2 .form-horizontal .btn:hover{
+    background: #fff;
+    border-color: #3f9cb5;
+}
+
+/*End*/
+
+#type-3{
+  background-color: #0a233b;
+  color: #fff;
+  height: auto;
+}
+
+#type-3 .contact{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: 'Berkshire Swash', cursive;
+}
+#type-3 .sub-title  {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+}
+#type-3 .form-control{
+  border:none;
+  border-bottom: 2px solid #4ac8ed; 
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+}
+#type-3 label, button[type=submit]{
+  font-size: 20px;
+  font-family: 'Lobster Two', cursive;
+}
+
+#type-3 .btn{
+  background-color: #4ac8ed;
+  border-color: #4ac8ed;
+  cursor: pointer;
+}
+
+#type-3 input[type="text"]{
+  padding-left: 
+}
+
+#type-3 .title{
+  margin-top: 30px;
+  padding-bottom: 50px;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+#type-3 .description{
+  font-family: 'Lobster Two', cursive;
+}  
+
+#type-3 hr{
+  background-color: transparent;
+  width: 0px;
+}
+#type-3 hr:after {
+  font-family: 'FontAwesome';
+  content: "\f005";
+  color: #fff;
+  font-size: 20px;
+}

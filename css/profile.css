@@ -1,0 +1,315 @@
+#type-1{
+  background-color: #212121;
+  text-align: center;
+}
+#type-1 .profile {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 40px 8px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000;
+  text-align: left;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#type-1 .profile *,
+#type-1 .profile:before,
+#type-1 .profile:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#type-1 .profile img {
+  max-width: 35%;
+  margin-top: -15px;
+  margin-left: 60%;
+  margin-bottom: 15px;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+#type-1 .profile .name {
+  position: absolute;
+  top: 0;
+  right: 40%;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+}
+
+#type-1 .profile h3 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+#type-1 .profile .icons {
+  font-size: 1.6rem;
+}
+
+#type-1 .profile .icons a {
+  color: #ccc;
+}
+
+#type-1 .profile .icons a:hover {
+  color: #2980b9;
+}
+
+/*End*/
+
+#type-2{
+  background-color: #737373;
+  height: auto;
+}
+
+#type-2 .profile-account {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #141414;
+}
+#type-2 .profile-account * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+#type-2 .profile-account .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.2;
+  -webkit-filter: grayscale(100%) blur(10px);
+  filter: grayscale(100%) blur(10px);
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+#type-2 .profile-account .profile-name {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+#type-2 .profile-account .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+#type-2 .profile-account h3 {
+  margin: 0 0 5px;
+  font-weight: 400;
+}
+#type-2 .profile-account h3 span {
+  display: block;
+  font-size: 0.6em;
+  color: #f39c12;
+  opacity: 0.75;
+}
+#type-2 .profile-account i {
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.65;
+}
+#type-2 .profile-account a {
+  text-decoration: none;
+}
+#type-2 .profile-account i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+#type-2 .profile-account:hover .background,
+#type-2 .profile-account.hover .background {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/*End*/
+
+
+#type-3{
+  background-color: #763568;
+  height: auto;
+}
+#type-3 .profile {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#type-3 .profile * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+#type-3 .profile img {
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  opacity: 1.0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+#type-3 .profile h3 {
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 6px;
+  margin: 0;
+  right: 40px;
+  opacity: 0;
+  bottom: 0;
+  -webkit-transform: translate(10px, 0);
+  transform: translate(10px, 0);
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+#type-3 .profile .icons {
+  bottom: 35px;
+  right: 0;
+  width: 35px;
+  position: absolute;
+  text-align: center;
+}
+#type-3 .profile .icons i {
+  display: inline-block;
+  font-size: 22px;
+  color: #ffffff;
+  left: 0;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: translate(35px, -35px);
+  transform: translate(35px, -35px);
+}
+#type-3 .profile .corner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+#type-3 .profile .icons i,
+#type-3 .profile .corner {
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  background: #262626;
+}
+#type-3 .profile a {
+  opacity: 0.8;
+}
+#type-3 .profile a:hover {
+  opacity: 1;
+}
+#type-3 .profile a:hover i {
+  width: 40px;
+  left: -5px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+#type-3 .profile a:first-child i {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+#type-3 .profile a:nth-child(2) i {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+#type-3 .profile a:nth-child(3) i {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+#type-3 .profile.blue .icons i,
+#type-3 .profile.blue .corner {
+  background: #2980b9;
+}
+#type-3 .profile.red .icons i,
+#type-3 .profile.red .corner {
+  background: #c0392b;
+}
+#type-3 .profile.yellow .icons i,
+#type-3 .profile.yellow .corner {
+  background: #e67e22;
+}
+#type-3 .profile:hover img,
+#type-3 .profile.hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#type-3 .profile:hover h3,
+#type-3 .profile.hover h3 {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  opacity: 1;
+}
+#type-3 .profile:hover .icons,
+#type-3 .profile.hover .icons {
+  opacity: 1;
+}
+#type-3 .profile:hover .icons i,
+#type-3 .profile.hover .icons i {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+}
+#type-3 .profile:hover a:first-child i,
+#type-3 .profile.hover a:first-child i {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+#type-3 .profile:hover a:nth-child(2) i,
+#type-3 .profile.hover a:nth-child(2) i {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+#type-3 .profile:hover a:nth-child(3) i,
+#type-3 .profile.hover a:nth-child(3) i {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+#businessProduct {
+  background-color: #f2f5f7;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Poppins',sans-serif;
+}
+#businessProduct span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+#businessProduct span i {
+  display: inline-block;
+  font-size: 43px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#businessProduct .content{
+  width: 100%;
+  height: 170px;
+  display: block;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  color: #222222;
+  text-transform: capitalize;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#businessProduct .content:hover{
+  display: block;
+  border: 1px solid #19B5FE;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  text-decoration: none; 
+  background-color: #19B5FE;
+  transition: all 0.3s ease-in-out;
+}
+
+#businessProduct .modal-content{
+  background-color: transparent;
+  border:none;
+  margin-top: 30px;
+}
+
+#businessProduct #modal-bussines {
+  background-color: #F2F1EF !important;
+}
+
+#businessProduct .title{
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+
+#businessProduct h2{
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 0;
+}
+
+#businessProduct h2 small{
+  display: block;
+  font-size: 16px;
+  color: #848484;
+  font-family: 'Muli',sans-serif;
+  margin-top: 15px;
+}
+
+#businessProduct .close-modal-bussines{
+  cursor: pointer;
+  width: 45px!important;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  color: #000;
+  font-size: 28px;
+  opacity: 1;
+  text-shadow: none;
+  line-height: 42px;
+}
+
+#businessProduct .close-modal-bussines:hover{
+  background-color: #19B5FE;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #19B5FE;
+}
+
+#businessProduct .buttonRight{
+  margin-right: 20px;
+  margin-top:20px;
+}

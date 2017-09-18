@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+#counter {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#counter .number{
+	border-right: 1px solid rgba(235, 16, 47, 0.3);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#counter .number p{
+	text-transform: uppercase;
+  font-weight: 400 !important;
+}
+
+#counter .number h3{
+	font-size: 42px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+#type-1{
+  font-family: 'Raleway', sans-serif;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f2f5f7;
+}
+#type-1 #map {
+  width: 100%;
+  height: 400px;
+}
+
+#type-1 img{
+  width: 50px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#type-1 .fa{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #808080;
+}
+
+#type-1 .fa-facebook:hover{
+  color: navy;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+#type-1 .fa-linkedin:hover{
+  color: #0095ff;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+#type-1 .fa-github:hover{
+  color: #000;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+#type-1 .fa-dribbble:hover{
+  color: #F9690E;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}

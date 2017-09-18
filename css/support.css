@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+#type-1 {
+	text-align: center;
+	background-color: #D2D7D3;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+
+@media (max-width: 425px){
+	#type-1 .col-sm-4 {
+    margin-top: 50px;
+	}
+}
+
+/*End*/
+
+
+
+#type-2 {
+	text-align: center;
+	background-color: #fff;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+#type-2 img{
+	width: 100%;
+	height: auto;
+
+}
+
+#type-2 h5{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+@media (max-width: 425px){
+	#type-2 .col-sm-4 {
+    margin-top: 50px;
+	}
+
+	#type-2 img{
+		width: 50%;
+	}
+}
+
+/*End*/
+
+#type-3 #owl-demo .item{
+  /*background: #3fbf79;*/
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+#type-3 .owl-centered {
+  margin: auto; 
+}
+
+#type-3 .owl-centered .owl-wrapper {
+  display: table !important;
+}
+#type-3 .owl-centered .owl-item {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+#type-3 .owl-centered .owl-item > div {
+  text-align: center;
+}
+
+#type-3 .owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+#type-3 .owl-carousel .caption {
+  text-align: center;
+}
